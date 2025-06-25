@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>Accessible Web Design</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="images/logo.svg" type="image/x-icon"/>
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">a11y practice</div>
+                <div class="main-menu">
+                    <ul>
+                        <li>
+                            <a href="#pour">POUR Principles</a>
+                        </li>
+                        <li>
+                            <a href="#about">About</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Hero -->
+         <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <img src="images/logo.svg" alt="Logo: stick figure in circle" class="hero-image">
+                    <h1 class="hero-heading">
+                        Accessible Web Design
+                    </h1>
+                    <p class="hero-text">
+                        What does accessibility mean in the context of the web?
+                    </p>
+                </div>
+            </div>
+         </section>
+        <!-- POUR Section -->
+         <section id="pour" class="POUR">
+            <div class="container-main">
+                <h2 class="POUR-Heading text-xl">
+                    What are POUR Principles?
+                </h2>
+                <section class="POUR-Principles">
+                        <div class="POUR-Principles-Containers">
+                            <div class="box">
+                                <div class="box-heading">
+                                    <h3 class="text-l">Perceivable</h3>
+                                    <p class="definition">For content to be perceivable, it must be presented in ways that users can recognize and understand regardless of the sensory abilities they do or do not possess.</p>
+                                </div>
+                                <section class="box-section">
+                                    <section class="box-subsection">
+                                        <section class="title-row">
+                                            <img src="images/problems.svg" alt="warning sign" class="box-icon">
+                                            <h4 class="problems text-bold">Example problems</h4>
+                                        </section>
+                                        <section class="subsection-bullets">
+                                            <ul class="problems-bullets">
+                                                <li>A deaf or hard-of-hearing user trying to watch a video</li>
+                                                <li>A visually impaired user who cannot interpret an image</li>
+                                                <li>A blind user who is unable to read on-screen text</li>
+                                            </ul>
+                                        </section>
+                                    </section>
+                                    <section class="box-subsection">
+                                        <section class="title-row">
+                                            <img src="images/solutions.svg" alt="checked box" class="box-icon">
+                                            <h4 class="solutions text-bold">Potential solutions</h4>
+                                        </section>
+                                        <section class="subsection-bullets">
+                                             <ul class="solutions-bullets">
+                                                <li>Provide captions and transcripts for videos</li>
+                                                <li>Use descriptive alternative text for images</li>
+                                                <li>Ensure content is compatible with screen readers</li>
+                                            </ul>
+                                        </section>
+                                    </section>
+                                </section>
+                            </div>
+                            <div class="box">
+                                <div class="box-heading">
+                                    <h3 class="text-l">Operable</h3>
+                                    <p class="definition">Something is operable if the user interface and navigation components can be used by everyone.</p>
+                                </div>
+                                <section class="box-section">
+                                    <section class="box-subsection">
+                                        <section class="title-row">
+                                            <img src="images/problems.svg" alt="warning sign" class="box-icon">
+                                            <h4 class="problems text-bold">Example problems</h4>
+                                        </section>
+                                        <section class="subsection-bullets">
+                                            <ul class="problems-bullets">
+                                                <li>A user with a motor disability that prevents them from using a mouse</li>
+                                                <li>Auto-scrolling content moves too quickly for users to read or interact with</li>
+                                                <li>A user with epilepsy opens up a webpage with quick, flashing lights</li>
+                                            </ul>
+                                        </section>
+                                    </section>
+                                    <section class="box-subsection">
+                                        <section class="title-row">
+                                            <img src="images/solutions.svg" alt="checked box" class="box-icon">
+                                            <h4 class="solutions text-bold">Potential solutions</h4>
+                                        </section>
+                                        <section class="subsection-bullets">
+                                             <ul class="solutions-bullets">
+                                                <li>Make all functionality available from a keyboard</li>
+                                                <li>Give users enough time to read and use content</li>
+                                                <li>Do not include content that causes seizures</li>
+                                            </ul>
+                                        </section>
+                                    </section>
+                                </section>
+                            </div>
+                            <div class="box">
+                                <div class="box-heading">
+                                    <h3 class="text-l">Understandable</h3>
+                                    <p class="definition">A website is considered to be 'understandable' when its content and functionalities are clear to all users.</p>
+                                </div>
+                                <section class="box-section">
+                                    <section class="box-subsection">
+                                        <section class="title-row">
+                                            <img src="images/problems.svg" alt="warning sign" class="box-icon">
+                                            <h4 class="problems text-bold">Example problems</h4>
+                                        </section>
+                                        <section class="subsection-bullets">
+                                            <ul class="problems-bullets">
+                                                <li>Navigation links move unexpectedly when hovered over</li>
+                                                <li>A form uses jargon that's confusing to some users</li>
+                                                <li>Error messages provide no guidance on how to fix the problem</li>
+                                            </ul>
+                                        </section>
+                                    </section>
+                                    <section class="box-subsection">
+                                        <section class="title-row">
+                                            <img src="images/solutions.svg" alt="checked box" class="box-icon">
+                                            <h4 class="solutions text-bold">Potential solutions</h4>
+                                        </section>
+                                        <section class="subsection-bullets">
+                                             <ul class="solutions-bullets">
+                                                <li>Design consistent navigation and layout</li>
+                                                <li>Use appropriately targeted language and explain technical terms-- aim for an 8th- or 9th-grade reading level when writing for the general public</li>
+                                                <li>Offer helpful, specific error messages with suggestions</li>
+                                            </ul>
+                                        </section>
+                                    </section>
+                                </section>
+                            </div>
+                            <div class="box">
+                                <div class="box-heading">
+                                    <h3 class="text-l">Robust</h3>
+                                    <p class="definition">A 'robust' website supports and can be accessed by many types of devices, including assistive technologies.</p>
+                                </div>
+                                <section class="box-section">
+                                    <section class="box-subsection">
+                                        <section class="title-row">
+                                            <img src="images/problems.svg" alt="warning sign" class="box-icon">
+                                            <h4 class="problems text-bold">Example problems</h4>
+                                        </section>
+                                        <section class="subsection-bullets">
+                                            <ul class="problems-bullets">
+                                                <li>The website breaks in screen readers</li>
+                                                <li>A form doesn't work in older browsers</li>
+                                                <li>The website doesn't work properly if someone's browser doesn't run JavaScript</li>
+                                            </ul>
+                                        </section>
+                                    </section>
+                                    <section class="box-subsection">
+                                        <section class="title-row">
+                                            <img src="images/solutions.svg" alt="checked box" class="box-icon">
+                                            <h4 class="solutions text-bold">Potential solutions</h4>
+                                        </section>
+                                        <section class="subsection-bullets">
+                                             <ul class="solutions-bullets">
+                                                <li>Use valid, semantic HTML that conforms to standards</li>
+                                                <li>Test compatibility across different browsers and devices</li>
+                                                <li>Make sure important parts of the site work even if someone's browser doesn't support extra features like JavaScript</li>
+                                            </ul>
+                                        </section>
+                                    </section>
+                                </section>
+                            </div>
+                        </div>
+                </section>
+            </div>
+         </section>
+         <!-- About Section -->
+          <section id="about" class="About-me">
+            <div class="container-main">
+                <h2 class="About-Heading text-xl">
+                    About me
+                </h2>
+                <section class="about">
+                    <section class="row-1">
+                        <img src="images/Bio Photo.png" alt="bio photo" class="bio-photo"></img>
+                        <section class="row1-text">
+                            <h3 class="text-l">Joelie Campana</h3>
+                            <p class="bio">Write a short bio here about yourself.</p>
+                        </section> 
+                    </section>
+                    <section class="row-2">
+                        <section class="interests text-block">
+                            <h4 class="interests-heading text-bold">Interests</h4>
+                            <section class="interests-bullets">
+                                <ul class="interests-bullets">
+                                <li>User Experience (UX) Design</li>
+                                <li>User Interface (UI) Design</li>
+                                <li>Human-Computer Interaction</li>
+                            </ul>
+                            </section>
+                        </section>
+                        <section class="hobbies text-block">
+                            <h4 class="hobbies-heading text-bold">Hobbies</h4>
+                            <section class="hobbies-bullets">
+                                <ul class="hobbies-bullets">
+                                <li>A Cappella</li>
+                                <li>Theatre</li>
+                                <li>Embroidery</li>
+                            </ul>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+            </div>
+          </section>
+          <!-- Footer -->
+           <footer class="footer">
+                <p class="top-text text-bold-sm">© 2023 Joelie Campana</p>
+                <p class="bottom-text text-reg-sm">Built with HTML/CSS</p>
+           </footer>
+    </body>
+</html>
