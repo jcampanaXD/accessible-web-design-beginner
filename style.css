@@ -29,15 +29,12 @@ img {
 }
 
 /* Navbar */
-.navbar { 
-    padding: 24px 96px;
-    background: transparent;
-}
-
 .navbar .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: transparent;
+    padding: 24px 96px;
 }
 
 .navbar .container .logo {
