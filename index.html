@@ -11,7 +11,7 @@
         <link rel="shortcut icon" href="images/logo.svg" type="image/x-icon"/>
     </head>
     <body>
-        <nav class="navbar">
+        <nav id="navbar" class="navbar">
             <div class="container">
                 <div class="logo">a11y practice</div>
                 <div class="main-menu">
@@ -30,7 +30,7 @@
             </div>
         </nav>
         <!-- Hero -->
-         <section class="hero">
+         <section class="hero" role="region" aria-label="Hero section">
             <div class="container">
                 <div class="hero-content">
                     <img src="images/logo.svg" alt="Logo: stick figure in circle" class="hero-image">
@@ -44,7 +44,7 @@
             </div>
          </section>
         <!-- POUR Section -->
-         <section id="pour" class="POUR">
+         <section id="pour" class="POUR"  role="region" aria-label="POUR section">
             <div class="container-main">
                 <h2 class="POUR-Heading text-xl">
                     What are POUR Principles?
@@ -192,7 +192,7 @@
             </div>
          </section>
          <!-- About Section -->
-          <section id="about" class="About-me">
+          <section id="about" class="About-me"  role="region" aria-label="About section">
             <div class="container-main">
                 <h2 class="About-Heading text-xl">
                     About me
@@ -240,5 +240,6 @@
                 <p class="top-text text-bold-sm">© 2023 Joelie Campana</p>
                 <p class="bottom-text text-reg-sm">Built with HTML/CSS</p>
            </footer>
+        <script src="index.js"></script>
     </body>
 </html>

@@ -31,7 +31,7 @@ img {
 /* Navbar */
 .navbar { 
     padding: 24px 96px;
-    background: var(--primary-color);
+    background: transparent;
 }
 
 .navbar .container {
@@ -69,6 +69,32 @@ img {
     border-radius: 8px;
 }
 
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+    z-index: 1000;
+}
+
+#navbar.scrolled {
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 1);
+}
+
+#navbar.scrolled .logo,
+#navbar.scrolled a {
+    color: var(--primary-color);
+}
+
+#navbar ul li a:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+    font-weight: 700;
+    border-radius: 8px;
+}
+
 /* Hero */
 .hero {
     padding: 96px;
@@ -94,7 +120,7 @@ img {
 }
 
 .hero-content p {
-    font-size: 20px;
+    font-size: 125%;
     color: #fff;
 }
 
@@ -247,13 +273,11 @@ img {
 }
 
 .text-bold-sm {
-    font-size: 16px;
     font-weight: 700;
     color: #fff
 }
 
 .text-reg-sm {
-    font-size: 16px;
     font-weight: 400;
     color: #fff
 }
