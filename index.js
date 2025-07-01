@@ -1,11 +1,10 @@
-const toggleButton = document.getElementById(".menu-toggle");
-const mainMenu = document.getElementById(".main-menu");
-
+const toggleButton = document.querySelector(".menu-toggle");
+const mainMenu = document.querySelector(".main-menu");
 toggleButton.addEventListener("click", () => {
     mainMenu.classList.toggle("active");
 });
 
+const navbar = document.getElementById("navbar");
 window.addEventListener("scroll", function () {
-    const navbar = document.querySelector(".navbar");
     navbar.classList.toggle("scrolled", this.window.scrollY > 50);
 });
