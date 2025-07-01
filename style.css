@@ -27,19 +27,13 @@ a {
 img {
     max-width: 100%;
 }
- /* Skip Link */
+
 .skip-link {
-    position: absolute;
-    top: -40px;
-    left: 0;
-    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background: var(--primary-color);
     color: var(--primary-color);
-    z-index: 1;
-}
-
-.skip-link:focus {
-    top: 0;
 }
 
 /* Navbar */
@@ -81,43 +75,46 @@ img {
     font-weight: 700;
 }
 
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 44px;
+    height: 44px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+    font-size: 24px;
+    color: #fff;
+}
+
+.menu-toggle span {
+    display: block;
+    height: 3px;
+    background-color: #fff;
+    border-radius: 3px;
+    transition: all 0.3s ease;;
+}
+
+.menu-toggle.open span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.menu-toggle.open span:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-toggle.open span:nth-child(3) {
+  transform: rotate(-45deg) translate(10px, -10px);
+}
+
+
 @media (max-width: 786px) {
     .menu-toggle {
         display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        width: 44px;
-        height: 44px;
-        background: none;
-        border: none;
-        cursor: pointer;
-        padding: 10px;
-        box-sizing: border-box;
-        transition: transform 0.3s ease;
-        font-size: 24px;
-        color: #fff;
-        z-index: 10;
-    }
-
-    .menu-toggle span {
-        display: block;
-        height: 3px;
-        background-color: #fff;
-        color: #fff;
-        border-radius: 3px;
-        transition: all 0.3s ease;;
-    }
-
-    .menu-toggle.open span:nth-child(1) {
-    transform: rotate(45deg) translate(5px, 5px);
-    }
-
-    .menu-toggle.open span:nth-child(2) {
-    opacity: 0;
-    }
-
-    .menu-toggle.open span:nth-child(3) {
-    transform: rotate(-45deg) translate(10px, -10px);
     }
 
     .main-menu {
@@ -156,7 +153,6 @@ img {
 
     #navbar.scrolled .menu-toggle span {
         background-color: var(--primary-color);
-        color: #fff;
     }
 
 }
