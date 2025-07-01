@@ -133,6 +133,10 @@ img {
     border-radius: 8px;
 }
 
+#navbar.scrolled .menu-toggle {
+    color: var(--primary-color);
+}
+
 /* Hero */
 .hero {
     padding: 96px;
