@@ -67,6 +67,46 @@ img {
     border-radius: 8px;
 }
 
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+}
+
+@media (max-width: 786px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    .main-menu {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        margin-top: 16px;
+    }
+
+    .main-menu.active {
+        display: flex;
+    }
+
+    .main-menu ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .main-menu ul li {
+        text-align: center;
+        margin: 8px 0;
+    }
+
+    .main-menu ul li a {
+        padding: 12px
+    }
+}
+
 #navbar {
     position: fixed;
     top: 0;
@@ -184,7 +224,6 @@ img {
     padding-left: 40px;
 }
 
-
 /* About me */
 .about {
     display: flex;
@@ -225,7 +264,6 @@ img {
 .interests-bullets, .hobbies-bullets {
     padding-left: 13px;
 }
-
 
 /* Footer */
 .footer {
