@@ -103,6 +103,7 @@ img {
         display: block;
         height: 3px;
         background-color: #fff;
+        color: #fff;
         border-radius: 3px;
         transition: all 0.3s ease;;
     }
@@ -155,6 +156,7 @@ img {
 
     #navbar.scrolled .menu-toggle span {
         background-color: var(--primary-color);
+        color: #fff;
     }
 
 }
