@@ -306,6 +306,31 @@ img {
     padding-left: 13px;
 }
 
+@media (max-width: 768px) {
+  .row-1 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .row1-text {
+    width: 90%;
+  }
+
+  .text-block {
+    width: 100%;
+  }
+
+  .row-2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bio-photo {
+    margin-bottom: 16px;
+  }
+}
+
 /* Footer */
 .footer {
     display: flex;
