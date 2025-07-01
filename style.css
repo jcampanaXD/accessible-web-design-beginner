@@ -57,6 +57,7 @@ img {
     font-weight: 400;
     transition: 0.5s;
     cursor: pointer;
+    border-radius: 8px;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
@@ -64,7 +65,6 @@ img {
     background-color: #fff;
     color: var(--primary-color);
     font-weight: 700;
-    border-radius: 8px;
 }
 
 .menu-toggle {
@@ -126,7 +126,7 @@ img {
     color: var(--primary-color);
 }
 
-#navbar ul li a:hover {
+#navbar.scrolled ul li a:hover {
     background-color: var(--primary-color);
     color: #fff;
     font-weight: 700;
