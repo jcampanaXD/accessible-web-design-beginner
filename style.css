@@ -105,6 +105,10 @@ img {
     .main-menu ul li a {
         padding: 12px
     }
+
+    #navbar.scrolled .menu-toggle {
+        color: var(--primary-color);
+    }
 }
 
 #navbar {
@@ -131,10 +135,6 @@ img {
     color: #fff;
     font-weight: 700;
     border-radius: 8px;
-}
-
-#navbar.scrolled .menu-toggle {
-    color: var(--primary-color);
 }
 
 /* Hero */
