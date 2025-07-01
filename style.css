@@ -28,6 +28,14 @@ img {
     max-width: 100%;
 }
 
+.skip-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--primary-color);
+    color: var(--primary-color);
+}
+
 /* Navbar */
 .navbar .container {
     display: flex;
