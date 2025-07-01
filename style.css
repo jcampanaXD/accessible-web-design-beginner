@@ -96,7 +96,7 @@ img {
 .menu-toggle span {
     display: block;
     height: 3px;
-    background-color: #fff;
+    background-color: var(--primary-colors);
     border-radius: 3px;
     transition: all 0.3s ease;;
     position: relative;
