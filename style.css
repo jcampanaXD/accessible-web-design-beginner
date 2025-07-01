@@ -107,7 +107,7 @@ img {
     }
 
     #navbar.scrolled .menu-toggle {
-        color: var(--primary-color) !important;
+        color: var(--primary-color);
     }
 }
 
@@ -115,7 +115,7 @@ img {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: transparent;
+    background-color: var(--primary-color);
     transition: background-color 0.3s ease;
     z-index: 1000;
 }

@@ -1,5 +1,5 @@
-const toggleButton = document.getElementById("menuToggle");
-const mainMenu = document.getElementById("mainMenu");
+const toggleButton = document.getElementById(".menu-toggle");
+const mainMenu = document.getElementById(".main-menu");
 
 toggleButton.addEventListener("click", () => {
     mainMenu.classList.toggle("active");
