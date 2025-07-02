@@ -118,8 +118,12 @@ img {
   transform: rotate(-45deg) translate(10px, -10px);
 }
 
-
 @media (max-width: 768px) {
+    .navbar .container {
+        display: flex;
+        padding: 24px 24px;
+    }
+
     .menu-toggle {
         display: flex;
     }
