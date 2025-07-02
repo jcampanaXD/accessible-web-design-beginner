@@ -412,7 +412,7 @@ img {
 /* Spacing for Media */
 @media (max-width: 768px){
     .hero {
-        padding: 96px 24px 24px 24px;
+        padding: 96px 24px 72px 24px;
     }
 
     .POUR .container-main {
