@@ -131,7 +131,7 @@ img {
 
     .navbar .container {
         display: flex;
-        padding: 24px 24px;
+        padding: 24px 24px 0 24px;
     }
 
     .menu-toggle {
@@ -157,10 +157,11 @@ img {
     .main-menu ul li {
         text-align: center;
         margin: 8px 0;
+        font-size: 20px;
     }
 
     .main-menu ul li a {
-        padding: 12px
+        padding: 8px
     }
 
     #navbar.scrolled .menu-toggle {
