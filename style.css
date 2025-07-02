@@ -119,20 +119,7 @@ img {
 @media (max-width: 768px) {
     .menu-toggle {
         display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        width: 44px;
-        height: 44px;
-        background: none;
-        border: none;
-        cursor: pointer;
-        padding: 10px;
-        box-sizing: border-box;
-        transition: transform 0.3s ease;
-        font-size: 24px;
-        color: #fff;
-        position: relative;
-        z-index: 9999;
+        background-color: var(--secondary-color);
     }
 
     .main-menu {
