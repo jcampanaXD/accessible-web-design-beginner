@@ -90,13 +90,14 @@ img {
     font-size: 24px;
     color: #fff;
     position: relative;
-    z-index: 9999;
+    z-index: 99999;
+    border: 2px solid red;
 }
 
 .menu-toggle span {
     display: block;
     height: 3px;
-    background-color: #fff !important;
+    background-color: #fff;
     border-radius: 3px;
     transition: all 0.3s ease;;
     position: relative;
