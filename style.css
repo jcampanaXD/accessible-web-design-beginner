@@ -91,9 +91,6 @@ img {
     color: #fff;
     position: relative;
     z-index: 9999;
-    position: relative;
-    top: 0;
-    left: 0;
 }
 
 .menu-toggle span {
@@ -122,6 +119,8 @@ img {
 @media (max-width: 768px) {
     .menu-toggle {
         display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
 
     .main-menu {
