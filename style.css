@@ -91,6 +91,9 @@ img {
     color: #fff;
     position: relative;
     z-index: 9999;
+    position: relative;
+    top: 0;
+    left: 0;
 }
 
 .menu-toggle span {
