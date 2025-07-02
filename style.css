@@ -91,6 +91,7 @@ img {
     color: #fff;
     position: relative;
     z-index: 99999;
+    font-family: Arian, sans-serif;
 }
 
 .menu-toggle span {
