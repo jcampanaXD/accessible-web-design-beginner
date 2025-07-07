@@ -24,7 +24,7 @@
                     <ul>
                         <li><a href="#pour">POUR Principles</a></li>
                         <li><a href="#about">About</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -47,9 +47,7 @@
          <main id="main-content">
             <section id="pour" class="POUR"  role="region" aria-label="POUR section">
                 <div class="container-main">
-                    <h2 class="POUR-Heading text-xl">
-                        What are POUR Principles?
-                    </h2>
+                    <h2 class="POUR-Heading text-xl">What are POUR Principles?</h2>
                     <section class="POUR-Principles">
                             <div class="POUR-Principles-Containers">
                                 <div class="box">
@@ -195,9 +193,7 @@
             <!-- About Section -->
             <section id="about" class="About-me"  role="region" aria-label="About section">
                 <div class="container-main">
-                    <h2 class="About-Heading text-xl">
-                        About me
-                    </h2>
+                    <h2 class="About-Heading text-xl">About me</h2>
                     <section class="about">
                         <section class="row-1">
                             <img src="images/Bio Photo.jpg" alt="bio photo" class="bio-photo"></img>
@@ -236,6 +232,21 @@
                     </section>
                 </div>
             </section>
+            <!-- Contact -->
+             <section id="contact" class="contact" role="region" aria-label="Contact section">
+                <div class="container-main">
+                    <form action="https://api.web3forms.com/submit" method="POST" class="contact-contents">
+                        <h2 class="Contact-Heading text-xl">Contact</h2>
+                        <input type="hidden" name="access_key" value="0b738755-bcba-42f3-bcda-d7f321c6d692">
+                        <div class="input-row">
+                            <input type="text" name="name" placeholder="Your name" class="contact-inputs" required>
+                            <input type="email" name="email" placeholder="Your email" class="contact-inputs" required>
+                        </div>
+                        <textarea name="message" placeholder="Your message" class="contact-message" required></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+             </section>
         </main>
           <!-- Footer -->
            <footer class="footer">
