@@ -11,6 +11,9 @@ window.addEventListener("scroll", function () {
     navbar.classList.toggle("scrolled", this.window.scrollY > 50);
 });
 
-window.onload = function() {
-    document.getElementById("form").reset();
-};
+document.addEventListener("DOMContentLoaded", function () {
+    const form = document.getElementById("form");
+    if (form) {
+      form.reset();
+    }
+  });
